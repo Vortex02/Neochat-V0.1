@@ -7,8 +7,8 @@ var currentMessageTags = ["_default"];
 var username = "anonymous";
 
 function assignUsername() {
-  var adj = ["Anonymous", "Small", "Red", "Orange", "Yellow", "Blue", "Indigo", "Violet", "Shiny", "Sparkly", "Large", "Hot", "Cold", "Evil", "Kind", "Ugly", "Legendary", "Flaming", "Salty", "Slippery"];
-  var noun = ["Bear", "Dog", "Cat", "Banana", "Pepper", "Bird", "Lion", "Apple", "Phoenix", "Diamond", "Person", "Whale", "Plant", "Duckling", "Thing", "Flame", "Number", "Cow", "Dragon", "Hedgehog"];
+  var adj = ["Anonymous", "Small", "Red", "Orange", "Yellow", "Blue", "hot", "Violet", "Shiny", "Sparkly", "Sexy", "Hot", "Cold", "Evil", "Kind", "Ugly", "Legendary", "Flaming", "Salty", "Slippery"];
+  var noun = ["Bear", "Dog", "Cat", "Banana", "Pepper", "Bird", "Lion", "Apple", "Phoenix", "Diamond", "Person", "Whale", "Plant", "Duckling", "Thing", "Flame", "Number", "Cow", "Dragon", "Hedgehog", "Dick"];
 
   var rAdj = Math.floor(Math.random() * adj.length);
   var rNoun = Math.floor(Math.random() * noun.length);
